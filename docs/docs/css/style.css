@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.news-article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.news-article h1 {
+    color: #333;
+}
+
+.interactions {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn.like {
+    background-color: #ff7675;
+    color: white;
+}
+
+.btn.follow {
+    background-color: #7367f0;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
